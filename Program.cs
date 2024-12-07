@@ -131,13 +131,12 @@ class Program
                 Bonny.init();
             }
         }
-        catch
-        {
+
+        catch {
             Bonny.init();
         }
         Bonny.PrintVals();
         Console.WriteLine(Bonny.IsBel());
-
 
     }
 }
